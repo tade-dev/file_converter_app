@@ -11,5 +11,6 @@ class ColorManager {
   static final loading = Color(0xffFDCF6F);
   static final loadingAlt = Color(0xffF0ECE1);
   static final danger = Color(0xffFF6363);
+  static final labelBlack = Color(0xff000201);
 
 }
