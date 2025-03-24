@@ -7,9 +7,9 @@ final ThemeData lightTheme = ThemeData(
   radioTheme: const RadioThemeData(
     fillColor: WidgetStatePropertyAll(Color(0xffCD5C5C))
   ),
-  scaffoldBackgroundColor: ColorManager.white,
+  scaffoldBackgroundColor: ColorManager.bgnColor,
   appBarTheme: AppBarTheme(
-    backgroundColor: ColorManager.white,
+    backgroundColor: ColorManager.bgnColor,
   ),
   progressIndicatorTheme: ProgressIndicatorThemeData(
     color: ColorManager.primary,
@@ -19,9 +19,8 @@ final ThemeData lightTheme = ThemeData(
       Colors.white
     ),
   ),
-  cardColor: Colors.white,
-  bottomSheetTheme: const BottomSheetThemeData(
-    backgroundColor: Colors.white
+  bottomSheetTheme: BottomSheetThemeData(
+    backgroundColor: ColorManager.white
   ),
   dividerTheme: const DividerThemeData(
     color: Color(0xffBCC6C5)

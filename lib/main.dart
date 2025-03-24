@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'File Converter App',
       theme: lightTheme,
       getPages: getpage,
-      initialRoute: splash,
+      initialRoute: mainView,
     );
   }
 }
