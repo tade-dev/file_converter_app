@@ -64,9 +64,8 @@ class _MainViewState extends State<MainView> {
             ),
             Column(
               children: [
-                SizedBox(height: 20,),
                 Text(
-                  "Uploaded files",
+                  "Tools",
                   style: getMediumStyle(
                     color: ColorManager.labelBlack,
                     fontSize: 15
