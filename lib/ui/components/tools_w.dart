@@ -8,33 +8,39 @@ class ToolsW extends StatelessWidget {
     super.key,
     required this.title,
     required this.icon,
+    this.ontap,
   });
 
   final String title;
   final String icon;
+  final Function()? ontap;
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        CircleAvatar(
-          backgroundColor: ColorManager.greenAlt,
-          radius: 16,
-          child: SvgPicture.asset(
-            icon,
-            height: 24,
-            width: 24,
+    return GestureDetector(
+      onTap: ontap,
+      child: Column(
+        children: [
+          CircleAvatar(
+            backgroundColor: ColorManager.greenAlt,
+            radius: 16,
+            child: SvgPicture.asset(
+              icon,
+              height: 24,
+              width: 24,
+            ),
           ),
-        ),
-        SizedBox(height: 15,),
-        Text(
-          title,
-          style: getRegularStyle(
-            color: ColorManager.labelBlack,
-            fontSize: 12,
+          SizedBox(height: 15,),
+          Text(
+            title,
+            textAlign: TextAlign.center,
+            style: getRegularStyle(
+              color: ColorManager.labelBlack,
+              fontSize: 12,
+            )
           )
-        )
-      ],
+        ],
+      ),
     );
   }
 }

@@ -25,7 +25,7 @@ class ImageUploadW extends StatelessWidget {
       ),
       child: DottedBorder(
         strokeWidth: 1,
-        dashPattern: [10,10],
+        dashPattern: [6,6],
         radius: Radius.circular(10),
         borderType: BorderType.RRect,
         color: ColorManager.green,
