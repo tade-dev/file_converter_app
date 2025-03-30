@@ -56,6 +56,7 @@ class DropDownInput extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         label == null ?
         SizedBox.shrink() :

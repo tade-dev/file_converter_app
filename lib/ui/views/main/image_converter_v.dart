@@ -4,7 +4,6 @@ import 'package:file_converter_app/ui/widget/btn/c_btn.dart';
 import 'package:file_converter_app/ui/widget/custom/close_w.dart';
 import 'package:file_converter_app/ui/widget/input/custom_input_w.dart';
 import 'package:file_converter_app/ui/widget/input/drop_down_input.dart';
-import 'package:file_converter_app/ui/widget/input/input_field.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -51,8 +50,9 @@ class ImageConverterV extends StatelessWidget {
             SizedBox(height: 20,),
             CustomInputW(
               label: "Advanced options",
-              w: InputField(
+              w: DropDownInput(
                 onChanged: (v){}, 
+                dropdownMenuItems: [],
                 label: "Resize output image",
               ),
             ),
