@@ -1,7 +1,7 @@
 import 'package:file_converter_app/core/resources/colors_x.dart';
 import 'package:file_converter_app/core/resources/styles_x.dart';
-import 'package:file_converter_app/ui/widget/c_btn.dart';
-import 'package:file_converter_app/ui/widget/close_w.dart';
+import 'package:file_converter_app/ui/widget/btn/c_btn.dart';
+import 'package:file_converter_app/ui/widget/custom/close_w.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

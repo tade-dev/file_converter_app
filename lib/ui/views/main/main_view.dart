@@ -6,8 +6,8 @@ import 'package:file_converter_app/ui/components/image_upload_w.dart';
 import 'package:file_converter_app/ui/components/tools_w.dart';
 import 'package:file_converter_app/ui/components/upload_w.dart';
 import 'package:file_converter_app/ui/views/main/image_converter_v.dart';
-import 'package:file_converter_app/ui/widget/c_sht.dart';
-import 'package:file_converter_app/ui/widget/custom_app_bar.dart';
+import 'package:file_converter_app/ui/widget/sht/c_sht.dart';
+import 'package:file_converter_app/ui/widget/custom/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
 class MainView extends StatefulWidget {

@@ -13,6 +13,7 @@ class ColorManager {
   static final loadingAlt = Color(0xffF0ECE1);
   static final danger = Color(0xffFF6363);
   static final labelBlack = Color(0xff000201);
+  static final labelGrey= Color(0xff6A6C6A);
   static final labelBlackAlt = Color(0xff000201).withOpacity(0.4);
 
 }
